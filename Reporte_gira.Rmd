@@ -4,7 +4,8 @@ author: "Daniel Rodríguez García y Lisseth Corella Esquivel "
 date: "29 de marzo de 2019"
 output: 
   html_document: 
-    theme: paper
+    highlight: tango
+    theme: sandstone
     toc: yes
 ---
 #Sitio de estudio y metodología
@@ -19,7 +20,7 @@ La metodología para describir comportamientos de las aves consitió en observac
 
 <p align="justify">
 Por último, se realizó un análisis de Diversidad Verdadera para observar las diferencias en la diversidad **alpha, beta y gamma** entre los tres sitios. La Diversidad verdadera expresa el número equivalente de especies o número de efecto de especies (Hill numbers).
-Se transforma las comunidades cuyas especies tienen diferntes abundancias, en comunidades con abundancias iguales. Así podemos comparar número de especies entre comunidades. Este análisis viene a solventar los problemas de duplicación que tienen los índices de diversidad tradicional como Shannon y Simpson.
+Se transforma las comunidades cuyas especies tienen diferentes abundancias, en comunidades con abundancias iguales. Así podemos comparar número de especies entre comunidades. Este análisis viene a solventar los problemas de duplicación que tienen los índices de diversidad tradicional como Shannon y Simpson.
 </p>
 
 #Resultados
@@ -129,7 +130,7 @@ aves <- read.delim2("./Aves_bruto.csv",sep=";")
 aves
 ```
 
-##Analisis de diversidad
+##Análisis de diversidad
 
 ###Diversidad Verdadera
 
@@ -195,7 +196,7 @@ plot(dp)
 **Figura 5**. El rectángulo largo de peso 1 representa la cantidad de especies a nivel de paisaje, igual a 76 especies. El rectángulo estrecho y alto tienen la misma área, el tamaño horizontal muestra la diversidad puntual (37 especies) y el tamaño vertical muestra las comunidades efectivas (2.03).
 </p>
 
-###Indice de diversidad
+###Índice de diversidad
 
 <p align="justify">
 El q = 1 mide la diversidad , y es equivalente al exponencial del índice de Shannon. Con este índice puedo saber el número de especies **comunes** en la comunidad. Se concentra en la diversidad **local**.
@@ -220,7 +221,7 @@ plot(dp)
 **Figura 6**. El rectángulo largo de peso 1 representa la cantidad de especies comunes a a nivel de paisaje, igual a 25 especies. El tamaño horizontal muestra la cantidad de especies comunes a nivel local (11 especies) y el tamaño vertical muestra las comunidades efectivas (2.34).
 </p>
 
-###Indice de dominancia
+###Índice de dominancia
 
 <p align="justify">
 El q = 2 mide la dominancia de las especies y es equivalente al Inverso de Simpson. Con este índice puedo saber cuál es el número de especies dominantes en cada comunidad.
@@ -241,10 +242,10 @@ plot(dp)
 ```
 </p>
 <p align="center">
-**Figura 7**. El rectángulo largo de peso 1 representa la cantidad de especies dominantes a a nivel de paisaje, igual a 16 especies. El tamaño horizontal muestra la cantidad de especies dominantes a nivel local (6.4 especies) y el tamaño vertical muestra las comunidades efectivas (2.55).
+**Figura 7**. El rectángulo largo de peso 1 representa la cantidad de especies dominantes a a nivel de paisaje, igual a 16. El tamaño horizontal muestra la cantidad de especies dominantes a nivel local (6.4) y el tamaño vertical muestra las comunidades efectivas (2.55).
 </p>
 
-#Perfiles de diversidad
+###Perfiles de diversidad
 
 <p align="justify">
 Estos perfiles permiten ver el comportamiento de la diversidad en los diferentes Ordenes. Recordar que el Orden 0 (q=0) es la riqueza de especies, el Orden 1 (q=1) son las especies comunes y el orden 2 (q=2) son las especies dominantes (Figura 8).
@@ -262,13 +263,17 @@ plot(Profile)
 </p>
 
 <p align="justify">
-El índice de diversidad alfa es definida como la diversidad local. En el Orden 0, es decir la riqueza de especies total en el paisaje es 34 especies. El Orden 1 corresponde al total de especies comunes en cada sitio con el supuesto que la cobertura de muestreo fuera la misma (10.85). Por último, el orden 2 es el total de especies dominantes como si la cobertura de muestreo fuera la misma (6.40).
+El índice de diversidad alfa es definida como la diversidad local. En el Orden 0, es decir la riqueza de especies total en el paisaje es 34 especies. El Orden 1 corresponde al total de especies comunes en cada sitio con el supuesto que la cobertura de muestreo fuera la misma (10.85). Por último, el orden 2 es el total de especies dominantes como si la cobertura de muestreo fuera la misma (6.40)(Figura 8 superior izquierda).
 </p>
 
 <p align="justify">
-La diversidad beta es el reemplazo espacial o temporal de las especies. En este paisaje hay de 2 a 2.5 comunidades diferentes.
+También se presenta la diversidad alfa desglosada por comunidades. Así podemos observar que la comunidad de Cocorocas (linea roja) es el que tiene mayor riqueza de especies (52), especies comunes (16) y especies dominantes (12); esto comparado con Chomes (linea negra) y Mata Redonda (línea verde) (Figura 8 arriba derecha). 
 </p>
 
 <p align="justify">
-El índice de diversidad gamma dice la diversidad total a nivel de paisaje. En el orden 0 se muestra el total de especies en todo el paisaje (76). En el orden 1 se muestra que hay 25 especies a nivel de paisaje que son comunes. Por último el orden 3 muestra que el paisaje tiene 16.34 especies dominantes.
+La diversidad beta es el reemplazo espacial o temporal de las especies. En este paisaje hay de 2 a 2.5 comunidades diferentes (Figura 8 abajo izquierda).
+</p>
+
+<p align="justify">
+El índice de diversidad gamma dice la diversidad total a nivel de paisaje. En el orden 0 se muestra el total de especies en todo el paisaje (76). En el orden 1 se muestra que hay 25 especies a nivel de paisaje que son comunes. Por último el orden 3 muestra que el paisaje tiene 16.34 especies dominantes (Figura 8 abajo derecha).
 </p>
