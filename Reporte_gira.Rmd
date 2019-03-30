@@ -7,6 +7,8 @@ output:
     highlight: tango
     theme: sandstone
     toc: yes
+bibliography: referencias.bib
+csl: oecologia.csl
 ---
 #Sitio de estudio y metodología
 
@@ -20,7 +22,7 @@ La metodología para describir comportamientos de las aves consitió en observac
 
 <p align="justify">
 Por último, se realizó un análisis de Diversidad Verdadera para observar las diferencias en la diversidad **alpha, beta y gamma** entre los tres sitios. La Diversidad verdadera expresa el número equivalente de especies o número de efecto de especies (Hill numbers).
-Se transforma las comunidades cuyas especies tienen diferentes abundancias, en comunidades con abundancias iguales. Así podemos comparar número de especies entre comunidades. Este análisis viene a solventar los problemas de duplicación que tienen los índices de diversidad tradicional como Shannon y Simpson.
+Se transforma las comunidades cuyas especies tienen diferentes abundancias, en comunidades con abundancias iguales. Así podemos comparar número de especies entre comunidades. Este análisis viene a solventar los problemas de duplicación que tienen los índices de diversidad tradicional como Shannon y Simpson [@Hoffmann2008; @Lou2012;@Moreno2011].
 </p>
 
 #Resultados
@@ -140,8 +142,7 @@ library(entropart)
 ```
 
 <p align="justify">
-La Diversidad verdadera expresa el número equivalente de especies o número de efecto de especies (Hill numbers).
-Se transforma las comunidades cuyas especies tienen diferntes abundancias, en comunidades con abundancias iguales. Así podemos comparar número de especies entre comunidades.
+La Diversidad verdadera expresa el número equivalente de especies o número de efecto de especies (Hill numbers) [@Hoffmann2008]. Se transforma las comunidades cuyas especies tienen diferntes abundancias, en comunidades con abundancias iguales. Así podemos comparar número de especies entre comunidades.
 </p>
 
 
@@ -263,7 +264,7 @@ plot(Profile)
 </p>
 
 <p align="justify">
-El índice de diversidad alfa es definida como la diversidad local. En el Orden 0, es decir la riqueza de especies total en el paisaje es 34 especies. El Orden 1 corresponde al total de especies comunes en cada sitio con el supuesto que la cobertura de muestreo fuera la misma (10.85). Por último, el orden 2 es el total de especies dominantes como si la cobertura de muestreo fuera la misma (6.40)(Figura 8 superior izquierda).
+El índice de diversidad alfa es definida como la diversidad local. En el Orden 0, es decir la riqueza de especies total en el paisaje es 34 especies. El Orden 1 corresponde al total de especies comunes en cada sitio con el supuesto que la cobertura de muestreo fuera la misma (10.85). Por último, el orden 2 es el total de especies dominantes como si la cobertura de muestreo fuera la misma (6.40) (Figura 8 superior izquierda).
 </p>
 
 <p align="justify">
@@ -271,9 +272,12 @@ También se presenta la diversidad alfa desglosada por comunidades. Así podemos
 </p>
 
 <p align="justify">
-La diversidad beta es el reemplazo espacial o temporal de las especies. En este paisaje hay de 2 a 2.5 comunidades diferentes (Figura 8 abajo izquierda).
+La diversidad beta es el reemplazo espacial o temporal de las especies. En este paisaje hay de 2 a 2.5 comunidades diferentes (Figura 8 abajo izquierda) [@Marcon2012].
 </p>
 
 <p align="justify">
 El índice de diversidad gamma dice la diversidad total a nivel de paisaje. En el orden 0 se muestra el total de especies en todo el paisaje (76). En el orden 1 se muestra que hay 25 especies a nivel de paisaje que son comunes. Por último el orden 3 muestra que el paisaje tiene 16.34 especies dominantes (Figura 8 abajo derecha).
 </p>
+
+#Bibliografía
+\
