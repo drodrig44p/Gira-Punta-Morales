@@ -142,7 +142,7 @@ library(entropart)
 ```
 
 <p align="justify">
-La Diversidad verdadera expresa el número equivalente de especies o número de efecto de especies (Hill numbers) [@Hoffmann2008]. Se transforma las comunidades cuyas especies tienen diferntes abundancias, en comunidades con abundancias iguales. Así podemos comparar número de especies entre comunidades.
+La Diversidad verdadera expresa el número equivalente de especies o número de efecto de especies (Hill numbers). Se transforma las comunidades cuyas especies tienen diferntes abundancias, en comunidades con abundancias iguales. Así podemos comparar número de especies entre comunidades.
 </p>
 
 
