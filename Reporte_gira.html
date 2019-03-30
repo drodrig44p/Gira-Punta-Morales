@@ -200,7 +200,7 @@ $(document).ready(function () {
 Las observaciones se realizaron en Marzo del 2019 en tres sitios del Pacífico Norte en Costa Rica. El primero fue en el Refugio de Vida Silvestre Mata Redonda, cerca del margen del río Tempisque, en el Golfo de Nicoya, Guanacaste. El segundo sitio fue en las salineras de Cocorocas, perteneciente al distrito de Chomes del cantón central de Puntarenas. El último punto fue en las camaroneras de Chomes. A cada sitio le reconocimos los problemas ambientales presentes en el momento de la visita. Los problemas evaluados fueron Residuos sólidos, Vertido de Hidrocarburos, Residuos sólidos, Aguas residuales y Tala de árboles.
 </p>
 <p align="justify">
-La metodología para describir comportamientos de las aves consitió en observaciones directas y conteos en campo durante 3-4 horas.Tanto las observaciones del Refugio como en las camaroneras de Chomes fueron realizados en horas de la tarde, en las Salineras las observaciones se realizaron tanto en la mañana como una hora en la tarde. A cada especie se le investigó el órden, la familia, el estatus (R= Residente, M= Migratorio, A= Accidental, SC= Especie Sin Comprobante, END= Endémica) y el hábito alimenticio.
+La metodología para describir comportamientos de las aves consitió en observaciones directas y conteos en campo durante 3-4 horas.Tanto las observaciones del Refugio como en las camaroneras de Chomes fueron realizados en horas de la tarde, en las Salineras las observaciones se realizaron tanto en la mañana como una hora en la tarde. A cada especie se le investigó el órden, la familia, el estatus (R= Residente, M= Migratorio, A= Accidental, SC= Especie Sin Comprobante, END= Endémica y RR= Residente reproductor) y el hábito alimenticio.
 </p>
 <p align="justify">
 Por último, se realizó un análisis de Diversidad Verdadera para observar las diferencias en la diversidad <strong>alpha, beta y gamma</strong> entre los tres sitios. La Diversidad verdadera expresa el número equivalente de especies o número de efecto de especies (Hill numbers). Se transforma las comunidades cuyas especies tienen diferentes abundancias, en comunidades con abundancias iguales. Así podemos comparar número de especies entre comunidades. Este análisis viene a solventar los problemas de duplicación que tienen los índices de diversidad tradicional como Shannon y Simpson <span class="citation">(Hoffmann and Hoffmann 2008; Moreno et al. 2011; Lou and González-Oreja 2012)</span>.
@@ -459,137 +459,616 @@ Por último, se realizó un análisis de Diversidad Verdadera para observar las 
 </div>
 <div id="listado-de-especies-e-historia-natural" class="section level2">
 <h2>Listado de especies e historia natural</h2>
-<pre><code>##                       Especie Cantidad        Lugar
-## 1              Columbina inca        1 Mata Redonda
-## 2         Columbina passerina        2 Mata Redonda
-## 3         Leptotila verreauxi        2 Mata Redonda
-## 4            Zenaida asiatica        1 Mata Redonda
-## 5     Crotophaga sulcirostris        8 Mata Redonda
-## 6              Jacana spinosa        2 Mata Redonda
-## 7             Jabiru mycteria       21 Mata Redonda
-## 8          Mycteria americana       36 Mata Redonda
-## 9         Trigisoma mexicanum        3 Mata Redonda
-## 10             Ardea herodias        1 Mata Redonda
-## 11                 Ardea alba        2 Mata Redonda
-## 12              Bubulcus ibis      167 Mata Redonda
-## 13           Coragyps atratus        6 Mata Redonda
-## 14             Cathartes aura        5 Mata Redonda
-## 15        Parabuteo unicintus        1 Mata Redonda
-## 16      Eumomota superciliosa        1 Mata Redonda
-## 17       Melanerpes hofmannii        2 Mata Redonda
-## 18          Caracara cheriway       25 Mata Redonda
-## 19   Herpetotheres cachinnans        1 Mata Redonda
-## 20          Amazona albifrons        1 Mata Redonda
-## 21        Sublegatus arenarum        1 Mata Redonda
-## 22         Myiarchus crinitus        1 Mata Redonda
-## 23     Tyrannus melancholicus        3 Mata Redonda
-## 24          Calocitta formosa        1 Mata Redonda
-## 25            Hirundo rustica       90 Mata Redonda
-## 26  Campylorhynchus rufinucha        1 Mata Redonda
-## 27        Quiscalus mexicanus        4 Mata Redonda
-## 28   Patagioenas flavirostris        2    Cocorocas
-## 29             Columbina inca        4    Cocorocas
-## 30        Columbina passerina        1    Cocorocas
-## 31           Zenaida asiatica        2    Cocorocas
-## 32       Himantopus mexicanus       35    Cocorocas
-## 33       Pluvialis squatarola      130    Cocorocas
-## 34        Charadrius wilsonia       60    Cocorocas
-## 35    Charadrius semipalmatus       35    Cocorocas
-## 36          Numenius phaeopus      160    Cocorocas
-## 37               Limosa fedoa       75    Cocorocas
-## 38          Arenaria interpes        8    Cocorocas
-## 39         Calidris minutilla        1    Cocorocas
-## 40             Calidris mauri      140    Cocorocas
-## 41        Limnodromus griseus       87    Cocorocas
-## 42          Actitis macularis        1    Cocorocas
-## 43         Tringa semipalmata       50    Cocorocas
-## 44      Leucophaeus atricilla        6    Cocorocas
-## 45      Gelochelidon nilotica       41    Cocorocas
-## 46         Thalasseus maximus       15    Cocorocas
-## 47    Thalasseus sandvicensis        5    Cocorocas
-## 48             Rynchops niger       16    Cocorocas
-## 49        Fregata magnificens        2    Cocorocas
-## 50                 Ardea alba        1    Cocorocas
-## 51              Egretta thula        1    Cocorocas
-## 52           Egretta caerulea        3    Cocorocas
-## 53           Egretta tricolor        1    Cocorocas
-## 54        Butorides virescens        1    Cocorocas
-## 55      Nycticorax nycticorax        1    Cocorocas
-## 56            Eudocimus albus       76    Cocorocas
-## 57             Platalea ajaja        3    Cocorocas
-## 58           Coragyps atratus       15    Cocorocas
-## 59             Cathartes aura        1    Cocorocas
-## 60          Pandion haliaetus        1    Cocorocas
-## 61    Buteogallus anthracinus        1    Cocorocas
-## 62            Buteo plagiatus        1    Cocorocas
-## 63          Buteo albonotatus        1    Cocorocas
-## 64         Milvago chimachima        1    Cocorocas
-## 65       Brotogeris jugularis        4    Cocorocas
-## 66          Amazona albifrons        1    Cocorocas
-## 67     Eupsittula canicularis        3    Cocorocas
-## 68        Sublegatus arenarum        2    Cocorocas
-## 69         Myiarchus crinitus        1    Cocorocas
-## 70       Myiarchus panamensis        1    Cocorocas
-## 71       Pitangus sulphuratus        2    Cocorocas
-## 72        Myiozetetes similis        2    Cocorocas
-## 73            Hirundo rustica        1    Cocorocas
-## 74         Icterus pustulatus        1    Cocorocas
-## 75        Quiscalus mexicanus        7    Cocorocas
-## 76         Setophaga petechia        1    Cocorocas
-## 77      Saltator coerulescens        1    Cocorocas
-## 78             Columbina inca        5       Chomes
-## 79        Columbina passerina        8       Chomes
-## 80           Zenaida asiatica        2       Chomes
-## 81       Himantopus mexicanus      107       Chomes
-## 82    Charadrius semipalmatus       23       Chomes
-## 83         Calidris minutilla       15       Chomes
-## 84             Calidris mauri       60       Chomes
-## 85        Limnodromus griseus       30       Chomes
-## 86         Tringa semipalmata       28       Chomes
-## 87            Tringa flavipes       13       Chomes
-## 88      Leucophaeus atricilla        3       Chomes
-## 89         Hydroprogne caspia        1       Chomes
-## 90        Fregata magnificens        4       Chomes
-## 91  Phalacrocorax brasilianus        2       Chomes
-## 92                 Ardea alba        1       Chomes
-## 93              Egretta thula        5       Chomes
-## 94           Egretta caerulea       12       Chomes
-## 95        Butorides virescens        1       Chomes
-## 96            Eudocimus albus        1       Chomes
-## 97           Coragyps atratus        3       Chomes
-## 98             Cathartes aura        3       Chomes
-## 99          Pandion haliaetus        1       Chomes
-## 100           Ictinia plumbea        2       Chomes
-## 101   Buteogallus anthracinus        1       Chomes
-## 102          Falco peregrinus        1       Chomes
-## 103    Eupsittula canicularis        2       Chomes
-## 104           Progne chalybea       15       Chomes
-## 105  Petrochelidon pyrrhonota       45       Chomes
-## 106 Campylorhynchus rufinucha        1       Chomes
-## 107         Peucaea ruficauda        1       Chomes
-## 108        Icterus pustulatus        1       Chomes
-## 109       Quiscalus mexicanus        2       Chomes
-## 110   Parkesia noveboracensis        1       Chomes
-## 111        Setophaga petechia        1       Chomes
-## 112      Himantopus mexicanus       50    Cocorocas
-## 113      Pluvialis squatarola       70    Cocorocas
-## 114       Charadrius wilsonia       20    Cocorocas
-## 115   Charadrius semipalmatus       15    Cocorocas
-## 116         Numenius phaeopus      120    Cocorocas
-## 117              Limosa fedoa        1    Cocorocas
-## 118         Arenaria interpes      140    Cocorocas
-## 119            Calidris mauri       37    Cocorocas
-## 120        Tringa semipalmata       45    Cocorocas
-## 121     Leucophaeus atricilla        3    Cocorocas
-## 122     Gelochelidon nilotica       80    Cocorocas
-## 123        Thalasseus maximus       45    Cocorocas
-## 124            Rynchops niger       40    Cocorocas
-## 125          Egretta caerulea       25    Cocorocas
-## 126           Eudocimus albus        3    Cocorocas
-## 127        Milvago chimachima        1    Cocorocas
-## 128         Falco columbarius        1    Cocorocas
-## 129       Tyrannus forficatus        1    Cocorocas
-## 130       Quiscalus mexicanus        5    Cocorocas</code></pre>
+<div class="kable-table">
+<table>
+<thead>
+<tr class="header">
+<th align="left">Especie</th>
+<th align="left">Orden</th>
+<th align="left">Familia</th>
+<th align="left">Estatus</th>
+<th align="left">Alimentacion</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Columbina inca</td>
+<td align="left">Columbiformes</td>
+<td align="left">Columbidae</td>
+<td align="left">R</td>
+<td align="left">Semillas</td>
+</tr>
+<tr class="even">
+<td align="left">Columbina passerina</td>
+<td align="left">Columbiformes</td>
+<td align="left">Columbidae</td>
+<td align="left">R</td>
+<td align="left">Semillas</td>
+</tr>
+<tr class="odd">
+<td align="left">Leptotila verreauxi</td>
+<td align="left">Columbiformes</td>
+<td align="left">Columbidae</td>
+<td align="left">R</td>
+<td align="left">Semillas</td>
+</tr>
+<tr class="even">
+<td align="left">Zenaida asiatica</td>
+<td align="left">Columbiformes</td>
+<td align="left">Columbidae</td>
+<td align="left">R.M</td>
+<td align="left">Semillas</td>
+</tr>
+<tr class="odd">
+<td align="left">Crotophaga sulcirostris</td>
+<td align="left">Cuculiformes</td>
+<td align="left">Cuculidae</td>
+<td align="left">R</td>
+<td align="left">Insectos</td>
+</tr>
+<tr class="even">
+<td align="left">Jacana spinosa</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Jacanidae</td>
+<td align="left">R</td>
+<td align="left">Insectos</td>
+</tr>
+<tr class="odd">
+<td align="left">Jabiru mycteria</td>
+<td align="left">Ciconiiformes</td>
+<td align="left">Ciconiidae</td>
+<td align="left">R</td>
+<td align="left">Anguilas</td>
+</tr>
+<tr class="even">
+<td align="left">Mycteria americana</td>
+<td align="left">Ciconiiformes</td>
+<td align="left">Ciconiidae</td>
+<td align="left">R.M</td>
+<td align="left">Peces</td>
+</tr>
+<tr class="odd">
+<td align="left">Trigisoma mexicanum</td>
+<td align="left">Pelecaniformes</td>
+<td align="left">Ardeidae</td>
+<td align="left">R</td>
+<td align="left">Peces</td>
+</tr>
+<tr class="even">
+<td align="left">Ardea herodias</td>
+<td align="left">Pelecaniformes</td>
+<td align="left">Ardeidae</td>
+<td align="left">M</td>
+<td align="left">Peces</td>
+</tr>
+<tr class="odd">
+<td align="left">Ardea alba</td>
+<td align="left">Pelecaniformes</td>
+<td align="left">Ardeidae</td>
+<td align="left">R.M</td>
+<td align="left">Peces</td>
+</tr>
+<tr class="even">
+<td align="left">Bubulcus ibis</td>
+<td align="left">Pelecaniformes</td>
+<td align="left">Ardeidae</td>
+<td align="left">R.M</td>
+<td align="left">Insectos</td>
+</tr>
+<tr class="odd">
+<td align="left">Coragyps atratus</td>
+<td align="left">Cathartiformes</td>
+<td align="left">Cathartidae</td>
+<td align="left">R</td>
+<td align="left">Frutas</td>
+</tr>
+<tr class="even">
+<td align="left">Cathartes aura</td>
+<td align="left">Cathartiformes</td>
+<td align="left">Cathartidae</td>
+<td align="left">R.M</td>
+<td align="left">carroña</td>
+</tr>
+<tr class="odd">
+<td align="left">Parabuteo unicintus</td>
+<td align="left">Accipitriformes</td>
+<td align="left">Accipitridae</td>
+<td align="left">R.M</td>
+<td align="left">Vertebrados</td>
+</tr>
+<tr class="even">
+<td align="left">Eumomota superciliosa</td>
+<td align="left">Coraciiformes</td>
+<td align="left">Momotidae</td>
+<td align="left">R</td>
+<td align="left">Inectos</td>
+</tr>
+<tr class="odd">
+<td align="left">Melanerpes hofmannii</td>
+<td align="left">Piciformes</td>
+<td align="left">Picidae</td>
+<td align="left">R-END</td>
+<td align="left">Frutas</td>
+</tr>
+<tr class="even">
+<td align="left">Caracara cheriway</td>
+<td align="left">Falconiformes</td>
+<td align="left">Falconidae</td>
+<td align="left">R</td>
+<td align="left">Vertebrados</td>
+</tr>
+<tr class="odd">
+<td align="left">Herpetotheres cachinnans</td>
+<td align="left">Falconiformes</td>
+<td align="left">Falconidae</td>
+<td align="left">R</td>
+<td align="left">Vertebrados</td>
+</tr>
+<tr class="even">
+<td align="left">Amazona albifrons</td>
+<td align="left">Psittaciformes</td>
+<td align="left">Psittacidae</td>
+<td align="left">R</td>
+<td align="left">Semillas</td>
+</tr>
+<tr class="odd">
+<td align="left">Sublegatus arenarum</td>
+<td align="left">Oxyruncidae</td>
+<td align="left">Onychorhynchidae</td>
+<td align="left">R</td>
+<td align="left">Insectos</td>
+</tr>
+<tr class="even">
+<td align="left">Myiarchus crinitus</td>
+<td align="left">Passeriformes</td>
+<td align="left">Tyrannidae</td>
+<td align="left">M</td>
+<td align="left">Insectos</td>
+</tr>
+<tr class="odd">
+<td align="left">Tyrannus melancholicus</td>
+<td align="left">Passeriformes</td>
+<td align="left">Tyrannidae</td>
+<td align="left">R</td>
+<td align="left">Insectos</td>
+</tr>
+<tr class="even">
+<td align="left">Calocitta formosa</td>
+<td align="left">Passeriformes</td>
+<td align="left">Corvidae</td>
+<td align="left">R</td>
+<td align="left">Insectos</td>
+</tr>
+<tr class="odd">
+<td align="left">Hirundo rustica</td>
+<td align="left">Passeriformes</td>
+<td align="left">Hirundinidae</td>
+<td align="left">M</td>
+<td align="left">Vegetación</td>
+</tr>
+<tr class="even">
+<td align="left">Campylorhynchus rufinucha</td>
+<td align="left">Passeriformes</td>
+<td align="left">Troglodytidae</td>
+<td align="left">R</td>
+<td align="left">Insectos</td>
+</tr>
+<tr class="odd">
+<td align="left">Quiscalus mexicanus</td>
+<td align="left">Passeriformes</td>
+<td align="left">Icteridae</td>
+<td align="left">R</td>
+<td align="left">Insectos</td>
+</tr>
+<tr class="even">
+<td align="left">Patagioenas flavirostris</td>
+<td align="left">Columbiformes</td>
+<td align="left">Columbidae</td>
+<td align="left">R</td>
+<td align="left">Semillas</td>
+</tr>
+<tr class="odd">
+<td align="left">Himantopus mexicanus</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Recurvirostridae</td>
+<td align="left">R.M</td>
+<td align="left">Crustáceos</td>
+</tr>
+<tr class="even">
+<td align="left">Pluvialis squatarola</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Charadriidae</td>
+<td align="left">M</td>
+<td align="left">Crustáceos</td>
+</tr>
+<tr class="odd">
+<td align="left">Charadrius wilsonia</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Charadriidae</td>
+<td align="left">R.M</td>
+<td align="left">Crustáceos</td>
+</tr>
+<tr class="even">
+<td align="left">Charadrius semipalmatus</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Charadriidae</td>
+<td align="left">M</td>
+<td align="left">Moluscos</td>
+</tr>
+<tr class="odd">
+<td align="left">Numenius phaeopus</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Scolopacidae</td>
+<td align="left">M</td>
+<td align="left">Crustáceos</td>
+</tr>
+<tr class="even">
+<td align="left">Limosa fedoa</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Scolopacidae</td>
+<td align="left">M</td>
+<td align="left">Vegetación</td>
+</tr>
+<tr class="odd">
+<td align="left">Arenaria interpes</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Scolopacidae</td>
+<td align="left">M</td>
+<td align="left">Moluscos</td>
+</tr>
+<tr class="even">
+<td align="left">Calidris minutilla</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Scolopacidae</td>
+<td align="left">M</td>
+<td align="left">Moluscos</td>
+</tr>
+<tr class="odd">
+<td align="left">Calidris mauri</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Scolopacidae</td>
+<td align="left">M</td>
+<td align="left">Moluscos</td>
+</tr>
+<tr class="even">
+<td align="left">Limnodromus griseus</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Scolopacidae</td>
+<td align="left">M</td>
+<td align="left">Moluscos</td>
+</tr>
+<tr class="odd">
+<td align="left">Actitis macularius</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Scolopacidae</td>
+<td align="left">M</td>
+<td align="left">Insectos</td>
+</tr>
+<tr class="even">
+<td align="left">Tringa semipalmata</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Scolopacidae</td>
+<td align="left">M</td>
+<td align="left">Crustáceos</td>
+</tr>
+<tr class="odd">
+<td align="left">Leucophaeus atricilla</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Laridae</td>
+<td align="left">M</td>
+<td align="left">Peces</td>
+</tr>
+<tr class="even">
+<td align="left">Gelochelidon nilotica</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Laridae</td>
+<td align="left">M</td>
+<td align="left">Crustáceos</td>
+</tr>
+<tr class="odd">
+<td align="left">Thalasseus maximus</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Laridae</td>
+<td align="left">M</td>
+<td align="left">Peces</td>
+</tr>
+<tr class="even">
+<td align="left">Thalasseus sandvicensis</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Laridae</td>
+<td align="left">M</td>
+<td align="left">Peces</td>
+</tr>
+<tr class="odd">
+<td align="left">Rynchops niger</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Laridae</td>
+<td align="left">M</td>
+<td align="left">Crustáceos</td>
+</tr>
+<tr class="even">
+<td align="left">Fregata magnificens</td>
+<td align="left">Suliformes</td>
+<td align="left">Fregatidae</td>
+<td align="left">R</td>
+<td align="left">Peces</td>
+</tr>
+<tr class="odd">
+<td align="left">Egretta thula</td>
+<td align="left">Pelecaniformes</td>
+<td align="left">Ardeidae</td>
+<td align="left">R.M</td>
+<td align="left">Peces</td>
+</tr>
+<tr class="even">
+<td align="left">Egretta caerulea</td>
+<td align="left">Pelecaniformes</td>
+<td align="left">Ardeidae</td>
+<td align="left">R.M</td>
+<td align="left">Peces</td>
+</tr>
+<tr class="odd">
+<td align="left">Egretta tricolor</td>
+<td align="left">Pelecaniformes</td>
+<td align="left">Ardeidae</td>
+<td align="left">R.M</td>
+<td align="left">Peces</td>
+</tr>
+<tr class="even">
+<td align="left">Butorides virescens</td>
+<td align="left">Pelecaniformes</td>
+<td align="left">Ardeidae</td>
+<td align="left">R.M</td>
+<td align="left">Peces</td>
+</tr>
+<tr class="odd">
+<td align="left">Nycticorax nycticorax</td>
+<td align="left">Pelecaniformes</td>
+<td align="left">Ardeidae</td>
+<td align="left">R.M</td>
+<td align="left">Vertebrados</td>
+</tr>
+<tr class="even">
+<td align="left">Eudocimus albus</td>
+<td align="left">Pelecaniformes</td>
+<td align="left">Threskiornithidae</td>
+<td align="left">R</td>
+<td align="left">Moluscos</td>
+</tr>
+<tr class="odd">
+<td align="left">Platalea ajaja</td>
+<td align="left">Pelecaniformes</td>
+<td align="left">Threskiornithidae</td>
+<td align="left">R</td>
+<td align="left">Insectos</td>
+</tr>
+<tr class="even">
+<td align="left">Pandion haliaetus</td>
+<td align="left">Accipitriformes</td>
+<td align="left">Pandionidae</td>
+<td align="left">M</td>
+<td align="left">Vertebrados</td>
+</tr>
+<tr class="odd">
+<td align="left">Buteogallus anthracinus</td>
+<td align="left">Accipitriformes</td>
+<td align="left">Accipitridae</td>
+<td align="left">R</td>
+<td align="left">Reptiles</td>
+</tr>
+<tr class="even">
+<td align="left">Buteo plagiatus</td>
+<td align="left">Accipitriformes</td>
+<td align="left">Accipitridae</td>
+<td align="left">R</td>
+<td align="left">Vertebrados</td>
+</tr>
+<tr class="odd">
+<td align="left">Buteo albonotatus</td>
+<td align="left">Accipitriformes</td>
+<td align="left">Accipitridae</td>
+<td align="left">R.M</td>
+<td align="left">Vertebrados</td>
+</tr>
+<tr class="even">
+<td align="left">Milvago chimachima</td>
+<td align="left">Falconiformes</td>
+<td align="left">Falconidae</td>
+<td align="left">R</td>
+<td align="left">Vertebrados</td>
+</tr>
+<tr class="odd">
+<td align="left">Brotogeris jugularis</td>
+<td align="left">Psittaciformes</td>
+<td align="left">Psittacidae</td>
+<td align="left">R</td>
+<td align="left">Frutos</td>
+</tr>
+<tr class="even">
+<td align="left">Eupsittula canicularis</td>
+<td align="left">Psittaciformes</td>
+<td align="left">Psittacidae</td>
+<td align="left">R</td>
+<td align="left">Semillas</td>
+</tr>
+<tr class="odd">
+<td align="left">Sublegatus arenarum</td>
+<td align="left">Passeriformes</td>
+<td align="left">Tyrannidae</td>
+<td align="left">R</td>
+<td align="left">Insectos</td>
+</tr>
+<tr class="even">
+<td align="left">Myiarchus panamensis</td>
+<td align="left">Passeriformes</td>
+<td align="left">Tyrannidae</td>
+<td align="left">R</td>
+<td align="left">Insectos</td>
+</tr>
+<tr class="odd">
+<td align="left">Pitangus sulphuratus</td>
+<td align="left">Passeriformes</td>
+<td align="left">Tyrannidae</td>
+<td align="left">R</td>
+<td align="left">Insectos</td>
+</tr>
+<tr class="even">
+<td align="left">Myiozetetes similis</td>
+<td align="left">Passeriformes</td>
+<td align="left">Tyrannidae</td>
+<td align="left">R</td>
+<td align="left">Semillas</td>
+</tr>
+<tr class="odd">
+<td align="left">Icterus pustulatus</td>
+<td align="left">Passeriformes</td>
+<td align="left">Icteridae</td>
+<td align="left">R</td>
+<td align="left">Insectos</td>
+</tr>
+<tr class="even">
+<td align="left">Setophaga petechia</td>
+<td align="left">Passeriformes</td>
+<td align="left">Parulidae</td>
+<td align="left">R.M</td>
+<td align="left">Insectos</td>
+</tr>
+<tr class="odd">
+<td align="left">Saltator coerulescens</td>
+<td align="left">Passeriformes</td>
+<td align="left">Thraupidae</td>
+<td align="left">R</td>
+<td align="left">Frutos</td>
+</tr>
+<tr class="even">
+<td align="left">Limnodromus griseus</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Scolopacidae</td>
+<td align="left">M</td>
+<td align="left">Moluscos</td>
+</tr>
+<tr class="odd">
+<td align="left">Tringa flavipes</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Scolopacidae</td>
+<td align="left">M</td>
+<td align="left">Insectos</td>
+</tr>
+<tr class="even">
+<td align="left">Hydroprogne caspia</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Laridae</td>
+<td align="left">M</td>
+<td align="left">Peces</td>
+</tr>
+<tr class="odd">
+<td align="left">Phalacrocorax brasilianus</td>
+<td align="left">Suliformes</td>
+<td align="left">Phalacrocoracidae</td>
+<td align="left">R</td>
+<td align="left">Peces</td>
+</tr>
+<tr class="even">
+<td align="left">Ictinia plumbea</td>
+<td align="left">Accipitriformes</td>
+<td align="left">Accipitridae</td>
+<td align="left">RR.M</td>
+<td align="left">Reptiles</td>
+</tr>
+<tr class="odd">
+<td align="left">Falco peregrinus</td>
+<td align="left">Falconiformes</td>
+<td align="left">Falconidae</td>
+<td align="left">M</td>
+<td align="left">Aves</td>
+</tr>
+<tr class="even">
+<td align="left">Progne chalybea</td>
+<td align="left">Passeriformes</td>
+<td align="left">Hirundinidae</td>
+<td align="left">R</td>
+<td align="left">Insectos</td>
+</tr>
+<tr class="odd">
+<td align="left">Petrochelidon pyrrhonota</td>
+<td align="left">Passeriformes</td>
+<td align="left">Hirundinidae</td>
+<td align="left">M</td>
+<td align="left">Insectos</td>
+</tr>
+<tr class="even">
+<td align="left">Peucaea ruficauda</td>
+<td align="left">Passeriformes</td>
+<td align="left">Passerellidae</td>
+<td align="left">R</td>
+<td align="left">Semillas</td>
+</tr>
+<tr class="odd">
+<td align="left">Parkesia noveboracensis</td>
+<td align="left">Passeriformes</td>
+<td align="left">Parulidae</td>
+<td align="left">M</td>
+<td align="left">Insectos</td>
+</tr>
+<tr class="even">
+<td align="left">Setophaga petechia</td>
+<td align="left">Passeriformes</td>
+<td align="left">Parulidae</td>
+<td align="left">R.M</td>
+<td align="left">Insectos</td>
+</tr>
+<tr class="odd">
+<td align="left">Pluvialis squatarola</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Charadriidae</td>
+<td align="left">M</td>
+<td align="left">Crustáceos</td>
+</tr>
+<tr class="even">
+<td align="left">Limosa fedoa</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Scolopacidae</td>
+<td align="left">M</td>
+<td align="left">Crustáceos</td>
+</tr>
+<tr class="odd">
+<td align="left">Tringa semipalmata</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Scolopacidae</td>
+<td align="left">M</td>
+<td align="left">Crustáceos</td>
+</tr>
+<tr class="even">
+<td align="left">Thalasseus maximus</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Laridae</td>
+<td align="left">M</td>
+<td align="left">Peces</td>
+</tr>
+<tr class="odd">
+<td align="left">Rynchops niger</td>
+<td align="left">Charadriiformes</td>
+<td align="left">Laridae</td>
+<td align="left">M</td>
+<td align="left">Peces</td>
+</tr>
+<tr class="even">
+<td align="left">Falco columbarius</td>
+<td align="left">Falconiformes</td>
+<td align="left">Falconidae</td>
+<td align="left">M</td>
+<td align="left">Aves</td>
+</tr>
+<tr class="odd">
+<td align="left">Tyrannus forficatus</td>
+<td align="left">Passeriformes</td>
+<td align="left">Tyrannidae</td>
+<td align="left">M</td>
+<td align="left">Insectos</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 <div id="analisis-de-diversidad" class="section level2">
 <h2>Análisis de diversidad</h2>

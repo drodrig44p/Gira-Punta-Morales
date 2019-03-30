@@ -1,0 +1,86 @@
+Especie;Orden;Familia;Estatus;Hábitos alimentarios
+Columbina inca;Columbiformes;Columbidae;R;Semillas y vegetación
+Columbina passerina;Columbiformes;Columbidae;R;Semillas e insectos
+Leptotila verreauxi;Columbiformes;Columbidae;R;Semillas e insectos
+Zenaida asiatica;Columbiformes;Columbidae;R.M;Semillas
+Crotophaga sulcirostris;Cuculiformes;Cuculidae;R;Insectos
+Jacana spinosa;Charadriiformes;Jacanidae;R;Peces. insectos y semillas
+Jabiru mycteria;Ciconiiformes;Ciconiidae;R;Anguilas
+Mycteria americana;Ciconiiformes;Ciconiidae;R.M;Peces
+Trigisoma mexicanum;Pelecaniformes;Ardeidae;R;Peces. ranas y cangrejos
+Ardea herodias;Pelecaniformes;Ardeidae;M;Peces. ranas y cangrejos
+Ardea alba;Pelecaniformes;Ardeidae;R.M;Peces. ranas y cangrejos
+Bubulcus ibis;Pelecaniformes;Ardeidae;R.M;Insectos como chapulines
+Coragyps atratus;Cathartiformes;Cathartidae;R;Frutas y carroña
+Cathartes aura;Cathartiformes;Cathartidae;R.M;carroña
+Parabuteo unicintus;Accipitriformes;Accipitridae;R.M;Aves.lagartijas y  mamíferos pequeños
+Eumomota superciliosa;Coraciiformes;Momotidae;R;Insectos. culebras pequeñas
+Melanerpes hofmannii;Piciformes;Picidae;R-END;Frutas e insectos
+Caracara cheriway;Falconiformes;Falconidae;R;Ranas. roedores . atrapa pichones y carroñero
+Herpetotheres cachinnans;Falconiformes;Falconidae;R;Culebras (incluyendo corales venenosas). roedores y largatijas
+Amazona albifrons;Psittaciformes;Psittacidae;R;Higos y semillas
+Sublegatus arenarum;Oxyruncidae;Onychorhynchidae;R;Insectos y frutos
+Myiarchus crinitus;Passeriformes;Tyrannidae;M;Insectos y bayas
+Tyrannus melancholicus;Passeriformes;Tyrannidae;R;Frutos. mariposas e insectos pequeños
+Calocitta formosa;Passeriformes;Corvidae;R;Insectos. frutos. huevos de otras aves y nectar de algunas flores grandes
+Hirundo rustica;Passeriformes;Hirundinidae;M;Vegetación
+Campylorhynchus rufinucha;Passeriformes;Troglodytidae;R;Insectos
+Quiscalus mexicanus;Passeriformes;Icteridae;R;Insectos. frutos. semillas
+Patagioenas flavirostris;Columbiformes;Columbidae;R;Semillas y vegetación
+Himantopus mexicanus;Charadriiformes;Recurvirostridae;R.M;Moluscos.crustaceos. insectos acuaticos
+Pluvialis squatarola;Charadriiformes;Charadriidae;M;Cangrejos y crustáceos
+Charadrius wilsonia;Charadriiformes;Charadriidae;R.M;Cangrejos y crustáceos
+Charadrius semipalmatus;Charadriiformes;Charadriidae;M;Moluscos y crustáceos 
+Numenius phaeopus;Charadriiformes;Scolopacidae;M;Cangrejos y crustáceos
+Limosa fedoa;Charadriiformes;Scolopacidae;M;Vegetación
+Arenaria interpes;Charadriiformes;Scolopacidae;M;Moluscos y crustáceos 
+Calidris minutilla;Charadriiformes;Scolopacidae;M;Moluscos y crustáceos 
+Calidris mauri;Charadriiformes;Scolopacidae;M;Moluscos y crustáceos 
+Limnodromus griseus;Charadriiformes;Scolopacidae;M;Moluscos.crustaceos. insectos acuaticos
+Actitis macularius;Charadriiformes;Scolopacidae;M;Insectos. peces pequeños y crustáceos
+Tringa semipalmata;Charadriiformes;Scolopacidae;M;Cangrejos y crustáceos
+Leucophaeus atricilla;Charadriiformes;Laridae;M;Peces y camarones
+Gelochelidon nilotica;Charadriiformes;Laridae;M;Insectos. peces pequeños y crustáceos
+Thalasseus maximus;Charadriiformes;Laridae;M;Peces pequeños
+Thalasseus sandvicensis;Charadriiformes;Laridae;M;Peces y camarones
+Rynchops niger;Charadriiformes;Laridae;M;Crustáceos y peces pequeños
+Fregata magnificens;Suliformes;Fregatidae;R ;Peces y crías de tortugas
+Egretta thula;Pelecaniformes;Ardeidae;R.M;Peces
+Egretta caerulea;Pelecaniformes;Ardeidae;R.M;Peces
+Egretta tricolor;Pelecaniformes;Ardeidae;R.M;Peces pequeños
+Butorides virescens;Pelecaniformes;Ardeidae;R.M;Peces. ranas e insectos acuáticos 
+Nycticorax nycticorax;Pelecaniformes;Ardeidae;R.M;Peces y ranas
+Eudocimus albus;Pelecaniformes;Threskiornithidae;R;Moluscos e invertebrados
+Platalea ajaja;Pelecaniformes;Threskiornithidae;R;Insectos. peces pequeños y crustáceos
+Pandion haliaetus;Accipitriformes;Pandionidae;M;Peces. aves mamíferos y lagartijas
+Buteogallus anthracinus;Accipitriformes;Accipitridae;R;Cangrejos. ranas. reptiles. huevos y juveniles de tortugas marinas
+Buteo plagiatus;Accipitriformes;Accipitridae;R;Aves.lagartijas y  mamíferos pequeños
+Buteo albonotatus;Accipitriformes;Accipitridae;R.M;Aves.lagartijas y  mamíferos pequeños
+Milvago chimachima;Falconiformes;Falconidae;R;Ratones. reptiles e insectos
+Brotogeris jugularis;Psittaciformes;Psittacidae;R;Frutos
+Eupsittula canicularis;Psittaciformes;Psittacidae;R;Semillas
+Sublegatus arenarum;Passeriformes;Tyrannidae;R;Abejones. orugas.insectos de vegetación y frutos
+Myiarchus panamensis;Passeriformes;Tyrannidae;R;Insectos y frutos
+Pitangus sulphuratus;Passeriformes;Tyrannidae;R;Insectos grandes. culebras. ranas y ratones
+Myiozetetes similis;Passeriformes;Tyrannidae;R;Bayas y semillas
+Icterus pustulatus;Passeriformes;Icteridae;R;Insectos y arañas
+Setophaga petechia;Passeriformes;Parulidae;R.M;Insectos y arañas
+Saltator coerulescens;Passeriformes;Thraupidae;R ;Frutos y semillas
+Limnodromus griseus;Charadriiformes;Scolopacidae;M;Moluscos.crustaceos. insectos acuaticos
+Tringa flavipes;Charadriiformes;Scolopacidae;M;Insectos
+Hydroprogne caspia;Charadriiformes;Laridae;M;Peces
+Phalacrocorax brasilianus;Suliformes;Phalacrocoracidae;R ;Peces
+Ictinia plumbea;Accipitriformes;Accipitridae;RR.M;Culebras. lagartijas e insectos
+Falco peregrinus;Falconiformes;Falconidae;M;Patos. aves playeras. zanates y gaviotas
+Progne chalybea;Passeriformes;Hirundinidae;R;Insectos
+Petrochelidon pyrrhonota;Passeriformes;Hirundinidae;M;Insectos
+Peucaea ruficauda;Passeriformes;Passerellidae;R;Semillas
+Parkesia noveboracensis;Passeriformes;Parulidae;M;Insectos. moluscos y crustaceos
+Setophaga petechia;Passeriformes;Parulidae;R.M;Insectos
+Pluvialis squatarola;Charadriiformes;Charadriidae;M;Crustaceos e insectos acuáticos
+Limosa fedoa;Charadriiformes;Scolopacidae;M;Crustaceos e insectos acuáticos
+Tringa semipalmata;Charadriiformes;Scolopacidae;M;Crustaceos e insectos acuáticos
+Thalasseus maximus;Charadriiformes;Laridae;M;Peces
+Rynchops niger;Charadriiformes;Laridae;M;Peces e insectos
+Falco columbarius;Falconiformes;Falconidae;M;Aves pequeñas e insectos
+Tyrannus forficatus;Passeriformes;Tyrannidae;M;Insectos y frutos
