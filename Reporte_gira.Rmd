@@ -11,7 +11,7 @@ output:
 bibliography: referencias.bib
 csl: oecologia.csl
 ---
-#Sitio de estudio y metodología
+#Metodología
 
 <p align="justify">
 Las observaciones se realizaron en Marzo del 2019 en tres sitios del  Pacífico Norte en Costa Rica. El primero fue en el Refugio de Vida Silvestre Mata Redonda, cerca del margen del río Tempisque, en el Golfo de Nicoya, Guanacaste. El segundo sitio fue en las salineras de  Cocorocas, perteneciente al distrito de Chomes del cantón central de Puntarenas. El último punto fue en las camaroneras de Chomes. A cada sitio le reconocimos los problemas ambientales presentes en el momento de la visita. Los problemas evaluados fueron Residuos sólidos, Vertido de Hidrocarburos, Residuos sólidos, Aguas residuales y Tala de árboles.
@@ -250,7 +250,7 @@ plot(dp)
 ###Perfiles de diversidad
 
 <p align="justify">
-Estos perfiles permiten ver el comportamiento de la diversidad en los diferentes Ordenes. Recordar que el Orden 0 (q=0) es la riqueza de especies, el Orden 1 (q=1) son las especies comunes y el orden 2 (q=2) son las especies dominantes (Figura 8).
+Estos perfiles permiten ver el comportamiento de la diversidad en los diferentes Ordenes. Recordar que el Orden 0 (q= 0) es la riqueza de especies, el Orden 1 (q= 1) son las especies comunes y el orden 2 (q= 2) son las especies dominantes (Figura 8).
 </p>
 
 <p align="center">
@@ -281,4 +281,3 @@ El índice de diversidad gamma dice la diversidad total a nivel de paisaje. En e
 </p>
 
 #Bibliografía
-\
