@@ -5,7 +5,10 @@ date: "29 de marzo de 2019"
 output: 
   html_document: 
     df_print: kable
+    highlight: tango
+    keep_md: yes
     self_contained: no
+    smart: no
     theme: sandstone
     toc: yes
 bibliography: referencias.bib
@@ -128,32 +131,110 @@ alrededores
 
 ##Listado de especies e historia natural
 
-```{r,echo=FALSE}
-aves <- read.delim2("./Aves_bruto2.csv",sep=";")
-aves
-```
+<div class="kable-table">
+
+Especie                     Orden             Familia             Estatus   Alimentacion 
+--------------------------  ----------------  ------------------  --------  -------------
+Columbina inca              Columbiformes     Columbidae          R         Semillas     
+Columbina passerina         Columbiformes     Columbidae          R         Semillas     
+Leptotila verreauxi         Columbiformes     Columbidae          R         Semillas     
+Zenaida asiatica            Columbiformes     Columbidae          R.M       Semillas     
+Crotophaga sulcirostris     Cuculiformes      Cuculidae           R         Insectos     
+Jacana spinosa              Charadriiformes   Jacanidae           R         Insectos     
+Jabiru mycteria             Ciconiiformes     Ciconiidae          R         Anguilas     
+Mycteria americana          Ciconiiformes     Ciconiidae          R.M       Peces        
+Trigisoma mexicanum         Pelecaniformes    Ardeidae            R         Peces        
+Ardea herodias              Pelecaniformes    Ardeidae            M         Peces        
+Ardea alba                  Pelecaniformes    Ardeidae            R.M       Peces        
+Bubulcus ibis               Pelecaniformes    Ardeidae            R.M       Insectos     
+Coragyps atratus            Cathartiformes    Cathartidae         R         Frutas       
+Cathartes aura              Cathartiformes    Cathartidae         R.M       carroña      
+Parabuteo unicintus         Accipitriformes   Accipitridae        R.M       Vertebrados  
+Eumomota superciliosa       Coraciiformes     Momotidae           R         Inectos      
+Melanerpes hofmannii        Piciformes        Picidae             R-END     Frutas       
+Caracara cheriway           Falconiformes     Falconidae          R         Vertebrados  
+Herpetotheres cachinnans    Falconiformes     Falconidae          R         Vertebrados  
+Amazona albifrons           Psittaciformes    Psittacidae         R         Semillas     
+Sublegatus arenarum         Oxyruncidae       Onychorhynchidae    R         Insectos     
+Myiarchus crinitus          Passeriformes     Tyrannidae          M         Insectos     
+Tyrannus melancholicus      Passeriformes     Tyrannidae          R         Insectos     
+Calocitta formosa           Passeriformes     Corvidae            R         Insectos     
+Hirundo rustica             Passeriformes     Hirundinidae        M         Vegetación   
+Campylorhynchus rufinucha   Passeriformes     Troglodytidae       R         Insectos     
+Quiscalus mexicanus         Passeriformes     Icteridae           R         Insectos     
+Patagioenas flavirostris    Columbiformes     Columbidae          R         Semillas     
+Himantopus mexicanus        Charadriiformes   Recurvirostridae    R.M       Crustáceos   
+Pluvialis squatarola        Charadriiformes   Charadriidae        M         Crustáceos   
+Charadrius wilsonia         Charadriiformes   Charadriidae        R.M       Crustáceos   
+Charadrius semipalmatus     Charadriiformes   Charadriidae        M         Moluscos     
+Numenius phaeopus           Charadriiformes   Scolopacidae        M         Crustáceos   
+Limosa fedoa                Charadriiformes   Scolopacidae        M         Vegetación   
+Arenaria interpes           Charadriiformes   Scolopacidae        M         Moluscos     
+Calidris minutilla          Charadriiformes   Scolopacidae        M         Moluscos     
+Calidris mauri              Charadriiformes   Scolopacidae        M         Moluscos     
+Limnodromus griseus         Charadriiformes   Scolopacidae        M         Moluscos     
+Actitis macularius          Charadriiformes   Scolopacidae        M         Insectos     
+Tringa semipalmata          Charadriiformes   Scolopacidae        M         Crustáceos   
+Leucophaeus atricilla       Charadriiformes   Laridae             M         Peces        
+Gelochelidon nilotica       Charadriiformes   Laridae             M         Crustáceos   
+Thalasseus maximus          Charadriiformes   Laridae             M         Peces        
+Thalasseus sandvicensis     Charadriiformes   Laridae             M         Peces        
+Rynchops niger              Charadriiformes   Laridae             M         Crustáceos   
+Fregata magnificens         Suliformes        Fregatidae          R         Peces        
+Egretta thula               Pelecaniformes    Ardeidae            R.M       Peces        
+Egretta caerulea            Pelecaniformes    Ardeidae            R.M       Peces        
+Egretta tricolor            Pelecaniformes    Ardeidae            R.M       Peces        
+Butorides virescens         Pelecaniformes    Ardeidae            R.M       Peces        
+Nycticorax nycticorax       Pelecaniformes    Ardeidae            R.M       Vertebrados  
+Eudocimus albus             Pelecaniformes    Threskiornithidae   R         Moluscos     
+Platalea ajaja              Pelecaniformes    Threskiornithidae   R         Insectos     
+Pandion haliaetus           Accipitriformes   Pandionidae         M         Vertebrados  
+Buteogallus anthracinus     Accipitriformes   Accipitridae        R         Reptiles     
+Buteo plagiatus             Accipitriformes   Accipitridae        R         Vertebrados  
+Buteo albonotatus           Accipitriformes   Accipitridae        R.M       Vertebrados  
+Milvago chimachima          Falconiformes     Falconidae          R         Vertebrados  
+Brotogeris jugularis        Psittaciformes    Psittacidae         R         Frutos       
+Eupsittula canicularis      Psittaciformes    Psittacidae         R         Semillas     
+Sublegatus arenarum         Passeriformes     Tyrannidae          R         Insectos     
+Myiarchus panamensis        Passeriformes     Tyrannidae          R         Insectos     
+Pitangus sulphuratus        Passeriformes     Tyrannidae          R         Insectos     
+Myiozetetes similis         Passeriformes     Tyrannidae          R         Semillas     
+Icterus pustulatus          Passeriformes     Icteridae           R         Insectos     
+Setophaga petechia          Passeriformes     Parulidae           R.M       Insectos     
+Saltator coerulescens       Passeriformes     Thraupidae          R         Frutos       
+Limnodromus griseus         Charadriiformes   Scolopacidae        M         Moluscos     
+Tringa flavipes             Charadriiformes   Scolopacidae        M         Insectos     
+Hydroprogne caspia          Charadriiformes   Laridae             M         Peces        
+Phalacrocorax brasilianus   Suliformes        Phalacrocoracidae   R         Peces        
+Ictinia plumbea             Accipitriformes   Accipitridae        RR.M      Reptiles     
+Falco peregrinus            Falconiformes     Falconidae          M         Aves         
+Progne chalybea             Passeriformes     Hirundinidae        R         Insectos     
+Petrochelidon pyrrhonota    Passeriformes     Hirundinidae        M         Insectos     
+Peucaea ruficauda           Passeriformes     Passerellidae       R         Semillas     
+Parkesia noveboracensis     Passeriformes     Parulidae           M         Insectos     
+Setophaga petechia          Passeriformes     Parulidae           R.M       Insectos     
+Pluvialis squatarola        Charadriiformes   Charadriidae        M         Crustáceos   
+Limosa fedoa                Charadriiformes   Scolopacidae        M         Crustáceos   
+Tringa semipalmata          Charadriiformes   Scolopacidae        M         Crustáceos   
+Thalasseus maximus          Charadriiformes   Laridae             M         Peces        
+Rynchops niger              Charadriiformes   Laridae             M         Peces        
+Falco columbarius           Falconiformes     Falconidae          M         Aves         
+Tyrannus forficatus         Passeriformes     Tyrannidae          M         Insectos     
+
+</div>
 
 ##Análisis de diversidad
 
 ###Diversidad Verdadera
 
-```{r, include=FALSE}
-library(ggplot2)
-library(entropart)
-```
+
 
 <p align="justify">
 La Diversidad verdadera expresa el número equivalente de especies o número de efecto de especies (Hill numbers). Se transforma las comunidades cuyas especies tienen diferntes abundancias, en comunidades con abundancias iguales. Así podemos comparar número de especies entre comunidades.
 </p>
 
 
-```{r,include=FALSE}
-aves <- read.delim2("./Aves_bruto.csv",sep=";")
-head(aves)
-m <- read.delim2("./Aves.csv",sep=";",row.names = 1)
-head(m)
-MC <- MetaCommunity(m)
-```
+
 
 
 - Resumen de los datos
@@ -162,17 +243,26 @@ MC <- MetaCommunity(m)
 Se observaron 76 especies diferentes en todo el paisaje que consistía en tres comunidades de aves: Chomes, Cocorocas y Mata Redonda. En cuanto a la abundancia de individuos, Cocorocas fue el sitio que tuvo más con 1762, seguido por Chomes y Mata Redonda. La cobertura del muestreo fue parecida entre los sitios (Figura 4).
 </p>
 
-```{r, echo=FALSE}
-summary(MC)
+
+```
+## Meta-community (class 'MetaCommunity') made of 2546 individuals in 3 
+## communities and 76 species. 
+## 
+## Its sample coverage is 0.99332810483025 
+## 
+## Community weights are: 
+##       Chomes    Cocorocas Mata_redonda 
+##    0.3333333    0.3333333    0.3333333 
+## Community sample numbers of individuals are: 
+##       Chomes    Cocorocas Mata_redonda 
+##          401         1762          383 
+## Community sample coverages are: 
+##       Chomes    Cocorocas Mata_redonda 
+##    0.9701369    0.9875187    0.9687229
 ```
 
 <p align="center">
-```{r,echo=FALSE}
-ggplot(aves,aes(x=Lugar,y=Cantidad))+
-  ylab("Número de individuos")+
-  geom_bar(stat = "identity")+
-  theme_classic()
-```
+![](Reporte_gira_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
 </p>
 
 <p align="center">
@@ -183,15 +273,25 @@ ggplot(aves,aes(x=Lugar,y=Cantidad))+
 En este estudio se observaron 52 especies en Cocorocas, 34 especies en Chomes y en Mata Redonda 26. La diversidad Beta, el número efectivo de comunidades para este paisaje fue de 2.03, es decir que hay 2 comunidades bien establecidas en el paisaje (Figura 5).
 </p>
 
-```{r,echo=FALSE}
-DivPart(q = 0, MC, Biased = FALSE, Correction = "None") -> dp
-summary(dp)
+
+```
+## HCDT diversity partitioning of order 0 of metaCommunity MC
+##  with correction: None
+## Alpha diversity of communities: 
+##       Chomes    Cocorocas Mata_redonda 
+##           34           52           26 
+## Total alpha diversity of the communities: 
+## [1] 37.33333
+## Beta diversity of the communities: 
+##     None 
+## 2.035714 
+## Gamma diversity of the metacommunity: 
+## None 
+##   76
 ```
 
 <p align="center">
-```{r,echo=FALSE}
-plot(dp)
-```
+![](Reporte_gira_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
 </p>
 
 <p align="center">
@@ -204,9 +304,21 @@ plot(dp)
 El q = 1 mide la diversidad , y es equivalente al exponencial del índice de Shannon. Con este índice puedo saber el número de especies **comunes** en la comunidad. Se concentra en la diversidad **local**.
 </p>
 
-```{r,echo=FALSE}
-DivPart(q = 1, MC, Biased = FALSE, Correction = "None") -> dp
-summary(dp)
+
+```
+## HCDT diversity partitioning of order 1 of metaCommunity MC
+##  with correction: None
+## Alpha diversity of communities: 
+##       Chomes    Cocorocas Mata_redonda 
+##    12.715533    16.162539     6.218247 
+## Total alpha diversity of the communities: 
+## [1] 10.85186
+## Beta diversity of the communities: 
+##     None 
+## 2.344227 
+## Gamma diversity of the metacommunity: 
+##     None 
+## 25.43921
 ```
 
 <p align="justify">
@@ -214,9 +326,7 @@ Podemos observar que Cocorocas tiene una comunidad con más especies comunes (16
 </p>
 
 <p align="center">
-```{r,echo=FALSE}
-plot(dp)
-```
+![](Reporte_gira_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
 </p>
 
 <p align="center">
@@ -229,9 +339,21 @@ plot(dp)
 El q = 2 mide la dominancia de las especies y es equivalente al Inverso de Simpson. Con este índice puedo saber cuál es el número de especies dominantes en cada comunidad.
 </p>
 
-```{r,echo=FALSE}
-DivPart(q = 2, MC, Biased = FALSE, Correction = "None") -> dp
-summary(dp)
+
+```
+## HCDT diversity partitioning of order 2 of metaCommunity MC
+##  with correction: None
+## Alpha diversity of communities: 
+##       Chomes    Cocorocas Mata_redonda 
+##     7.945106    12.371367     3.808818 
+## Total alpha diversity of the communities: 
+## [1] 6.393261
+## Beta diversity of the communities: 
+##     None 
+## 2.556443 
+## Gamma diversity of the metacommunity: 
+##   None 
+## 16.344
 ```
 
 <p align="justify">
@@ -239,9 +361,7 @@ En la comunidad de aves Cocorocas hay 12 especies dominantes, es decir que hay m
 </p>
 
 <p align="center">
-```{r,echo=FALSE}
-plot(dp)
-```
+![](Reporte_gira_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
 </p>
 <p align="center">
 **Figura 7**. El rectángulo largo de peso 1 representa la cantidad de especies dominantes a a nivel de paisaje, igual a 16. El tamaño horizontal muestra la cantidad de especies dominantes a nivel local (6.4) y el tamaño vertical muestra las comunidades efectivas (2.55).
@@ -254,10 +374,7 @@ Estos perfiles permiten ver el comportamiento de la diversidad en los diferentes
 </p>
 
 <p align="center">
-```{r,echo=FALSE}
-Profile <- DivProfile(q.seq = seq(0, 2, 0.1), MC, Biased = FALSE, Correction = "None")
-plot(Profile)
-```
+![](Reporte_gira_files/figure-html/unnamed-chunk-12-1.png)<!-- -->
 </p>
 
 <p align="center">
@@ -283,7 +400,7 @@ El índice de diversidad gamma dice la diversidad total a nivel de paisaje. En e
 #Discusión
 
 <p align="justify">
-El objetivo de la práctica fue observar los hábitats disponibles para aves acuáticas y terrestres en tres sitios del Pacífico Norte de Costa Rica. Cocorocas fue el lugar donde se contabilizó mayor cantidad de especies comunes y dominantes. Lo que pudo darse gracias a que en este sitio el esfuerzo de muestreo fue mayor que en los otros, ya que se pasó mayor tiempo que en Mata Redonda y en las camaroneras. Además en dicho lugar se realizaron observaciones tanto en la mañana como en la tarde, por lo que se cubrió dos horarios pico de avistamiento. Las salineras tienen dos tipos de hábitat diferentes: espejos de agua en las salinas y playa. Esto ofrece recursos diferenciados de alimento y zonas de descanso que las aves pueden utilizar en diferentes momentos del día. Estas características del sitio pudieron facilitar la dominancia de especies como **Himantopus mexicanus** y **Charadrius wilosnia**,que están entre las 12 especies dominantes en Cocorocas. Estas especies utilizan los  diques de tierra a lo largo de las salinas como sitios de anidamiento [@Stiles2007]. Ambas especies son residentes, por lo que la importancia de estos sitios de anidamiento es alta para la preservación de estas aves, ya que suelen anidar en colonias dispersas como mecanismo de defensa de depredadores. 
+El objetivo de la práctica fue observar los hábitats disponibles para aves acuáticas y terrestres en tres sitios del Pacífico Norte de Costa Rica. Cocorocas fue el lugar donde se contabilizó mayor cantidad de especies comunes y dominantes. Lo que pudo darse gracias a que en este sitio el esfuerzo de muestreo fue mayor que en los otros, ya que se pasó mayor tiempo que en Mata Redonda y en las camaroneras. Además en dicho lugar se realizaron observaciones tanto en la mañana como en la tarde, por lo que se cubrió dos horarios pico de avistamiento. Las salineras tienen dos tipos de hábitat diferentes: espejos de agua en las salinas y playa. Esto ofrece recursos diferenciados de alimento y zonas de descanso que las aves pueden utilizar en diferentes momentos del día. Estas características del sitio pudieron facilitar la dominancia de especies como *Himantopus mexicanus* y  **Charadrius wilosnia**,que están entre las 12 especies dominantes en Cocorocas. Estas especies utilizan los  diques de tierra a lo largo de las salinas como sitios de anidamiento [@Stiles2007]. Ambas especies son residentes, por lo que la importancia de estos sitios de anidamiento es alta para la preservación de estas aves, ya que suelen anidar en colonias dispersas como mecanismo de defensa de depredadores. 
 </p>
 
 <p align="justify">
