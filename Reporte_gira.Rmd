@@ -5,7 +5,8 @@ date: "29 de marzo de 2019"
 output: 
   html_document: 
     df_print: kable
-    self_contained: no
+    highlight: tango
+    keep_md: yes
     theme: sandstone
     toc: yes
 bibliography: referencias.bib
@@ -302,8 +303,5 @@ El índice de diversidad Beta muestra que solamente hay dos comunidades bien est
 <p align="justify">
 Las aves acuáticas son residentes comunes de los humedales y espejos de agua estacionales  durante determinados meses del año para cubrir necesidades específicas en sus ciclos tales como alimentación, migración, reproducción o sitios de anidamiento [@Blanco1999].  Lugares sin ningún tipo de  acción de conservación sirven de hábitat aves migratorias y residentes. Sin embargo es importante tener también zonas protegidas que aseguren los recursos necesarios para que las aves puedan utilizarlo y no decaigan sus poblaciones. La presencia de especies residente y migratorias en los tres sitios estudiados muestra la importancia de la costa del Pacífico central y norte de nuestro país como hábitat para las aves, y se vuelve vital el promover la conectividad de estos lugares para la conservación de la avifauna silvestre.
 </p>
-
-
-
 
 #Bibliografía
